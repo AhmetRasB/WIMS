@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="WIMS.Api/WIMS.Api.csproj" />
+  <Project Path="WIMS.Application/WIMS.Application.csproj" />
+  <Project Path="WIMS.Domain/WIMS.Domain.csproj" />
+  <Project Path="WIMS.Infrastructure/WIMS.Infrastructure.csproj" />
+</Solution>
