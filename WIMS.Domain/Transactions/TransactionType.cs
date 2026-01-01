@@ -1,7 +1,7 @@
 ﻿namespace WIMS.Domain.Transactions;
 
-public class TransactionType
+public enum TransactionType
 {
-    
-    
+    Buy,
+    Sell
 }

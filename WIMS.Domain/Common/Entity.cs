@@ -1,6 +1,6 @@
 ﻿namespace WIMS.Domain.Common;
 
-public class Entity
+public abstract class Entity<TId>
 {
-    
+    public TId Id { get; protected set; } = default!;
 }

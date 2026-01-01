@@ -1,6 +1,6 @@
 ﻿namespace WIMS.Application.Common.Interfaces;
 
-public class IUnitOfWork
+public interface IUnitOfWork
 {
-    
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }

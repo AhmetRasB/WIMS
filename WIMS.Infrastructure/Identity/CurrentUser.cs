@@ -1,6 +1,8 @@
-﻿namespace WIMS.Infrastructure.Identity;
+﻿using WIMS.Application.Common.Interfaces;
 
-public class CurrentUser
+namespace WIMS.Infrastructure.Identity;
+
+public sealed class CurrentUser : ICurrentUser
 {
-    
+    public Guid userId => Guid.Parse("11111111-1111-1111-1111-111111111111");
 }

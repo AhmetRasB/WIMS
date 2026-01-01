@@ -1,6 +1,3 @@
 ﻿namespace WIMS.Application.Transactions.Commands.DeleteTransaction;
 
-public class DeleteTransactionCommand
-{
-    
-}
+public sealed record DeleteTransactionCommand(Guid TransactionId);

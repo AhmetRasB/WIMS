@@ -1,6 +1,3 @@
 ﻿namespace WIMS.Domain.Transactions;
 
-public class TransactionId
-{
-    
-}
+public readonly record struct TransactionId(Guid Value);

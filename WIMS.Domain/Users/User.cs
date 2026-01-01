@@ -1,6 +1,12 @@
-﻿namespace WIMS.Domain.Users;
+﻿using WIMS.Domain.Common;
 
-public class User
+namespace WIMS.Domain.Users;
+
+public sealed class User : Entity<Guid>, IAggregateRoot
 {
-    
+    private User()
+    {
+        
+    }
+    public User(Guid id) => Id = id;
 }

@@ -1,6 +1,6 @@
 ﻿namespace WIMS.Application.Common.Interfaces;
 
-public class ICurrentUser
+public interface ICurrentUser
 {
-    
+    Guid userId { get; }
 }

@@ -15,4 +15,17 @@
       <Folder Include="ExternalServices\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.11" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.11" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.11" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.1">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.1" />
+      <PackageReference Include="OpenTelemetry.Api" Version="1.14.0" />
+      <PackageReference Include="SQLite" Version="3.13.0" />
+    </ItemGroup>
+
 </Project>

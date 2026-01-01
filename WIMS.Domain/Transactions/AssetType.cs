@@ -1,6 +1,12 @@
 ﻿namespace WIMS.Domain.Transactions;
 
-public class AssetType
+public enum AssetType
 {
-    
+    Gold,
+    USD,
+    EUR,
+    GBP,
+    Stock,
+    Crypto,
+    Other
 }
